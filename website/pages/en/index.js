@@ -58,8 +58,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
             <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            {/*<Button href={docUrl('doc2.html')}>Example Link 2</Button>*/}
           </PromoSection>
         </div>
       </SplashContainer>
@@ -115,7 +114,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
+              'This project was inspired by graphql code generator',
             image: `${baseUrl}img/undraw_note_list.svg`,
             imageAlign: 'right',
             title: 'Description',
@@ -161,10 +160,10 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
+          {/*<Features />*/}
+          {/*<FeatureCallout />*/}
+          {/*<LearnHow />*/}
+          {/*<TryOut />*/}
           <Description />
         </div>
       </div>

@@ -14,7 +14,7 @@ const users = [
 
 const siteConfig = {
   title: 'Schema First: Rest', // Title for your website.
-  tagline: 'The Schema For Your API',
+  tagline: 'GraphQL Schema For Your REST API',
   url: 'https://schema-first-rest.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
 
@@ -24,8 +24,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'introduction/getStarted', label: 'Docs'},
+    {href: 'https://github.com/schema-first-rest', label: 'Github'},
     {page: 'help', label: 'Help'},
   ],
 
@@ -86,7 +86,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+    repoUrl: 'https://github.com/schema-first-rest/sfr-core',
 };
 
 module.exports = siteConfig;
