@@ -1,16 +1,8 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
 // List of projects/orgs using your project for the users page.
-const users = [
-];
+const users = [];
 
 const siteConfig = {
   title: 'Schema First: Rest', // Title for your website.
@@ -86,7 +78,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-    repoUrl: 'https://github.com/schema-first-rest/sfr-core',
+  repoUrl: 'https://github.com/schema-first-rest/sfr-core',
 };
 
 module.exports = siteConfig;

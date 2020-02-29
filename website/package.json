@@ -12,9 +12,11 @@
 
 
     "predeploy": "yarn build",
-    "deploy": "cmd /C \"set GIT_USER=dested&& yarn run publish-gh-pages\""
+    "deploy": "cmd /C \"set GIT_USER=dested&& yarn run publish-gh-pages\"",
+    "deploy-osx": "GIT_USER=dested \\\n yarn run publish-gh-pages"
   },
   "devDependencies": {
-    "docusaurus": "^1.14.4"
+    "docusaurus": "^1.14.4",
+    "prettier": "^1.19.1"
   }
 }

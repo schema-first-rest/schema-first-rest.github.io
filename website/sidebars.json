@@ -1,7 +1,17 @@
 {
   "docs": {
-    "Introduction": ["introduction/getStarted","introduction/configuration"],
-    "First Category": ["doc3"],
-    "Plugins": ["plugins/controller","plugins/models","plugins/raw-fetch"]
+    "Introduction": [
+      "introduction/getStarted",
+      "introduction/installation",
+      "introduction/configuration",
+      "introduction/plugins"
+    ],
+    "Plugins": [
+      "plugins/controller",
+      "plugins/models",
+      "plugins/validate-models",
+      "plugins/raw-fetch",
+      "plugins/serverless-api-base"
+    ]
   }
 }
