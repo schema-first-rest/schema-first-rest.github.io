@@ -12,7 +12,7 @@
 
 
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build -b master"
+    "deploy": "cmd /C \"set GIT_USER=dested&& yarn run publish-gh-pages\""
   },
   "devDependencies": {
     "docusaurus": "^1.14.4"
