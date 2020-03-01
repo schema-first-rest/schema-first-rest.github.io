@@ -15,7 +15,7 @@ module.exports = {
         src: 'img/logo.png',
       },
       links: [
-        {to: 'docs/introduction/getStarted', label: 'Docs', position: 'left'},
+        {to: 'docs/introduction/theory', label: 'Docs', position: 'left'},
         {
           href: 'https://github.com/schema-first-rest',
           label: 'GitHub',

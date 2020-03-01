@@ -1,8 +1,9 @@
 module.exports = {
   someSidebar: {
     Introduction: [
-      'introduction/getStarted',
+      'introduction/theory',
       'introduction/installation',
+      'introduction/getStarted',
       'introduction/configuration',
       'introduction/plugins',
     ],

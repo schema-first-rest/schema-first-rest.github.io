@@ -59,36 +59,40 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
-      <Layout title={`${siteConfig.title}`} description="GraphQL Based Schema For Your REST API">
-        <header className={classnames('hero hero--primary', styles.heroBanner)}>
-          <div className="container">
-            <img src={'./img/logo.png'} alt={'logo'} style={{width: 200, height: 200}} />
-            <h1 className="hero__title">{siteConfig.title}</h1>
-            <p className="hero__subtitle">{siteConfig.tagline}</p>
-            <div className={styles.buttons}>
-              <Link
-                className={classnames('button  button--secondary button--lg', styles.getStarted)}
-                to={useBaseUrl('docs/introduction/getStarted')}>
-                Get Started
-              </Link>
-            </div>
+    <Layout title={`${siteConfig.title}`} description="GraphQL Based Schema For Your REST API">
+      <header className={classnames('hero hero--primary', styles.heroBanner)}>
+        <div className="container">
+          <img src={'./img/logo.png'} alt={'logo'} style={{width: 200, height: 200}} />
+          <h1 className="hero__title">{siteConfig.title}</h1>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div className={styles.buttons}>
+            <Link
+              className={classnames('button  button--secondary button--lg', styles.getStarted)}
+              to={useBaseUrl('docs/introduction/theory')}>
+              Get Started
+            </Link>
           </div>
-        </header>
-        <main>
-          {features && features.length && (
-            <section className={styles.features}>
-              <div className="container">
-                <div className="row">
-                  {features.map((props, idx) => (
-                    <Feature key={idx} {...props} />
-                  ))}
-                </div>
+        </div>
+      </header>
+      <main>
+        {features && features.length && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
+                ))}
               </div>
-            </section>
-          )}
-          <CodeGenerator />
-        </main>
-      </Layout>
+            </div>
+          </section>
+        )}
+        <section className={styles.features}>
+          <div className="container">
+            <CodeGenerator />
+          </div>
+        </section>
+      </main>
+    </Layout>
   );
 }
 

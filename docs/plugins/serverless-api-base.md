@@ -3,7 +3,47 @@ id: serverless-api-base
 title: Plugin Serverless API Base
 ---
 
-# @sfr/serverless-api-base
 import {CodeGenerator} from '../../src/components/codeGenerator';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-<CodeGenerator plugin={'serverless-api-base'} />
+This plugin is used to generate a series of `typescript` functions that can be used to validate a JSON model. It can be used as a first step to make sure that the JSON sent over the wire matches your schema. 
+
+## Install
+
+<Tabs
+defaultValue="yarn"
+values={[
+{ label: 'Yarn', value: 'yarn', },
+{ label: 'npm', value: 'npm', }
+]
+}>
+<TabItem value="yarn">
+
+```bash
+yarn add @sfr/models
+```
+
+</TabItem>
+<TabItem value="npm">
+
+```bash
+npm install @sfr/models
+```
+
+</TabItem>
+</Tabs>
+
+---
+
+## Code Generation
+
+<CodeGenerator plugin={'validate-models'} />
+
+## Directives
+
+This plugin does not include any directives.
+
+## Dependencies
+
+[@sfr/controller](./controller.md)

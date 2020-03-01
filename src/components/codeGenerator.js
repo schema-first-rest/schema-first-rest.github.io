@@ -89,45 +89,43 @@ type LoginResponse @model {
   }, [graphQLCode, selectedPlugin]);
 
   return (
-    <section className={styles.features}>
-      <div className="container">
-        {!plugin && (
-          <div>
-            <Select
-              style={{width: '100%'}}
-              value={pluginOptions.find(a => a.value === selectedPlugin)}
-              onChange={e => {
-                setSelectedPlugin(e.value);
-              }}
-              options={pluginOptions}
-              placeholder={'Select Plugin'}
-            />
-          </div>
-        )}
-        <div className={'rowIfScreen'}>
-          <div style={{flex:1}}>
-            <div className={'code-header'}>GraphQL Schema</div>
-            <ControlledEditor
-              height="50vh"
-              theme={'dark'}
-              language={'graphql'}
-              value={graphQLCode}
-              onChange={(ev, value) => setGraphQLCode(value)}
-              options={{lineNumbers: 'off', minimap: {enabled: false}}}
-            />
-          </div>
-          <div style={{flex:1}}>
-            <div className={'code-header'}>Generated Code</div>
-            <ControlledEditor
-              height="50vh"
-              theme={'dark'}
-              language={'typescript'}
-              value={typescriptCode}
-              options={{lineNumbers: 'off', readOnly: true, minimap: {enabled: false}}}
-            />
-          </div>{' '}
+    <>
+      {!plugin && (
+        <div>
+          <Select
+            style={{width: '100%'}}
+            value={pluginOptions.find(a => a.value === selectedPlugin)}
+            onChange={e => {
+              setSelectedPlugin(e.value);
+            }}
+            options={pluginOptions}
+            placeholder={'Select Plugin'}
+          />
+        </div>
+      )}
+      <div className={'rowIfScreen'}>
+        <div style={{flex: 1}}>
+          <div className={'code-header'}>GraphQL Schema</div>
+          <ControlledEditor
+            height="50vh"
+            theme={'dark'}
+            language={'graphql'}
+            value={graphQLCode}
+            onChange={(ev, value) => setGraphQLCode(value)}
+            options={{lineNumbers: 'off', minimap: {enabled: false}}}
+          />
+        </div>
+        <div style={{flex: 1}}>
+          <div className={'code-header'}>Generated Code</div>
+          <ControlledEditor
+            height="50vh"
+            theme={'dark'}
+            language={'typescript'}
+            value={typescriptCode}
+            options={{lineNumbers: 'off', readOnly: true, minimap: {enabled: false}}}
+          />
         </div>
       </div>
-    </section>
+    </>
   );
 }

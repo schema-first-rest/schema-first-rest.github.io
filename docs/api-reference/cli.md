@@ -19,7 +19,7 @@ Runs the generator and outputs the files specified
 
 Emits the base graphql for all of your plugins. This is primarily used for better IDE support in your schema files, otherwise it may say it cannot find the directives.
 
-This will also update your [sfr.yaml](../introduction/configuration.md) to ignore this file.
+This will also update your [sfr.yaml](../introduction/configuration.md) to ignore this file. If you do not do this, you will get errors about duplicate directives during generation.
 
 | Options  | Description                                  |
 | -------- | -------------------------------------------- |
