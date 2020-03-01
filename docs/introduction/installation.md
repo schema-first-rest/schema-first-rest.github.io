@@ -6,7 +6,7 @@ sidebar_label: Installation
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Add the SFR CLI to your global node_modules
+Add the SDR CLI to your global node_modules
 
 
 <Tabs
@@ -19,21 +19,21 @@ Add the SFR CLI to your global node_modules
 <TabItem value="yarn">
 
 ```bash
-yarn global add @sfr/cli 
+yarn global add @sdr/cli 
 ```
 
 </TabItem>
 <TabItem value="npm">
 
 ```bash
-npm install -g @sfr/cli 
+npm install -g @sdr/cli 
 ```
 
 </TabItem>
 </Tabs>
 
-You can now run `sfr` from your projects root to create your config file.
+You can now run `sdr` from your projects root to create your config file.
 
 ```bash
-sfr init
+sdr init
 ```

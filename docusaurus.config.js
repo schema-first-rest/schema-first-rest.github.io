@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Schema First: REST', // Title for your website.
+  title: 'Schema Driven: REST', // Title for your website.
   tagline: 'GraphQL Based Schema For Your REST API',
   url: 'https://schema-first-rest.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -9,9 +9,9 @@ module.exports = {
   organizationName: 'schema-first-rest',
   themeConfig: {
     navbar: {
-      title: 'Schema First: REST',
+      title: 'Schema Driven: REST',
       logo: {
-        alt: 'Schema First: REST Logo',
+        alt: 'Schema Driven: REST Logo',
         src: 'img/logo.png',
       },
       links: [

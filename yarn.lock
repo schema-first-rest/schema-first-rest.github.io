@@ -1311,44 +1311,44 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@sfr/controller@file:../plugin-controller":
+"@sdr/controller@file:../plugin-controller":
   version "1.0.20"
   dependencies:
-    "@sfr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sfr-controller-1.0.20-8053004d-92d3-476b-82f5-c6a2b9d32d32-1583081751854/node_modules/@sfr/sfr-core"
+    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-controller-1.0.20-8053004d-92d3-476b-82f5-c6a2b9d32d32-1583081751854/node_modules/@sdr/sdr-core"
 
-"@sfr/core@file:../sfr-core":
+"@sdr/core@file:../sdr-core":
   version "1.0.5"
   dependencies:
     graphql "14.6.0"
     prettier "1.19.1"
 
-"@sfr/models@file:../plugin-models":
+"@sdr/models@file:../plugin-models":
   version "1.0.21"
   dependencies:
     "@graphql-codegen/plugin-helpers" "1.12.2"
     "@graphql-codegen/typescript" "1.12.2"
     "@graphql-codegen/visitor-plugin-common" "1.12.2"
-    "@sfr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sfr-models-1.0.21-0b8b2045-0d89-4db5-8a2b-85a7df3503cb-1583081751859/node_modules/@sfr/sfr-core"
+    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-models-1.0.21-0b8b2045-0d89-4db5-8a2b-85a7df3503cb-1583081751859/node_modules/@sdr/sdr-core"
     auto-bind "4.0.0"
     graphql "14.6.0"
     tslib "1.11.0"
 
-"@sfr/raw-fetch@file:../plugin-raw-fetch":
+"@sdr/raw-fetch@file:../plugin-raw-fetch":
   version "1.0.24"
   dependencies:
-    "@sfr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sfr-raw-fetch-1.0.24-9033e605-ecc7-48e5-9505-08945a366de7-1583081751883/node_modules/@sfr/sfr-core"
+    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-raw-fetch-1.0.24-9033e605-ecc7-48e5-9505-08945a366de7-1583081751883/node_modules/@sdr/sdr-core"
     ejs "^3.0.1"
 
-"@sfr/serverless-api-base@file:../plugin-serverless-api-base":
+"@sdr/serverless-api-base@file:../plugin-serverless-api-base":
   version "1.0.24"
   dependencies:
-    "@sfr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sfr-serverless-api-base-1.0.24-a22657b7-ab83-453b-9791-256beaa1aba0-1583081751885/node_modules/@sfr/sfr-core"
+    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-serverless-api-base-1.0.24-a22657b7-ab83-453b-9791-256beaa1aba0-1583081751885/node_modules/@sdr/sdr-core"
     ejs "^3.0.1"
 
-"@sfr/validate-models@file:../plugin-validate-models":
+"@sdr/validate-models@file:../plugin-validate-models":
   version "1.0.24"
   dependencies:
-    "@sfr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sfr-validate-models-1.0.24-c908e095-362e-4cd7-bc9e-e15c62b21db0-1583081751887/node_modules/@sfr/sfr-core"
+    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-validate-models-1.0.24-c908e095-362e-4cd7-bc9e-e15c62b21db0-1583081751887/node_modules/@sdr/sdr-core"
     ejs "^3.0.1"
 
 "@types/anymatch@*":
@@ -5075,7 +5075,7 @@ is-alphabetical@1.0.4, is-alphabetical@^1.0.0:
 is-alphanumerical@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/is-alphanumerical/-/is-alphanumerical-1.0.4.tgz#7eb9a2431f855f6b1ef1a78e326df515696c4dbf"
-  integrity sha512-UzoZUr+XfVz3t3v4KyGEniVL9BDRoQtY7tOyrRybkVNjDFWyo1yhXNGrrBTQxp3ib9BLAWs7k2YKBQsFRkZG9A==
+  integrity sha512-UzoZUr+XfVz3t3v4KyGEniVL9BDRoQtY7tOyrRybkVNjDFWyo1yhXNGrrBTQxp3ib9BLAWs7k2YKBQsDRkZG9A==
   dependencies:
     is-alphabetical "^1.0.0"
     is-decimal "^1.0.0"

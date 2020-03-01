@@ -5,12 +5,12 @@ import styles from '../pages/styles.module.css';
 
 process.hrtime = () => 1;
 
-const {processPlugin} = require('@sfr/core');
-const {plugin: controllerPlugin, config: controllerConfig} = require('@sfr/controller');
-const {plugin: modelsPlugin, config: modelsConfig} = require('@sfr/models');
-const {plugin: rawFetchPlugin, config: rawFetchConfig} = require('@sfr/raw-fetch');
-const {classesPlugin, handlersPlugin} = require('@sfr/serverless-api-base');
-const {plugin: validateModelsPlugin, config: validateModelsConfig} = require('@sfr/validate-models');
+const {processPlugin} = require('@sdr/core');
+const {plugin: controllerPlugin, config: controllerConfig} = require('@sdr/controller');
+const {plugin: modelsPlugin, config: modelsConfig} = require('@sdr/models');
+const {plugin: rawFetchPlugin, config: rawFetchConfig} = require('@sdr/raw-fetch');
+const {classesPlugin, handlersPlugin} = require('@sdr/serverless-api-base');
+const {plugin: validateModelsPlugin, config: validateModelsConfig} = require('@sdr/validate-models');
 
 const controllerSchema = `directive @request(method: Method, path: String) on FIELD_DEFINITION
 directive @controller(path: String) on OBJECT
@@ -56,18 +56,18 @@ type LoginResponse @model {
 
       switch (selectedPlugin) {
         case 'raw-fetch':
-          plugins.push({name: '@sfr/raw-fetch', method: 'index', body: {plugin: rawFetchPlugin}});
+          plugins.push({name: '@sdr/raw-fetch', method: 'index', body: {plugin: rawFetchPlugin}});
           break;
         case 'models':
-          plugins.push({name: '@sfr/models', method: 'index', body: {plugin: modelsPlugin}});
+          plugins.push({name: '@sdr/models', method: 'index', body: {plugin: modelsPlugin}});
           break;
         case 'serverless-api-base':
-          plugins.push({name: '@sfr/serverless-api-base', method: 'index', body: {plugin: classesPlugin}});
-          plugins.push({name: '@sfr/serverless-api-base', method: 'index', body: {plugin: handlersPlugin}});
-          plugins.push({name: '@sfr/models', method: 'index', body: {plugin: modelsPlugin}});
+          plugins.push({name: '@sdr/serverless-api-base', method: 'index', body: {plugin: classesPlugin}});
+          plugins.push({name: '@sdr/serverless-api-base', method: 'index', body: {plugin: handlersPlugin}});
+          plugins.push({name: '@sdr/models', method: 'index', body: {plugin: modelsPlugin}});
           break;
         case 'validate-models':
-          plugins.push({name: '@sfr/validate-models', method: 'index', body: {plugin: validateModelsPlugin}});
+          plugins.push({name: '@sdr/validate-models', method: 'index', body: {plugin: validateModelsPlugin}});
           break;
         default:
           setTypescriptCode('Select a plugin above');

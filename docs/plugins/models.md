@@ -21,14 +21,14 @@ values={[
 <TabItem value="yarn">
 
 ```bash
-yarn add @sfr/models
+yarn add @sdr/models
 ```
 
 </TabItem>
 <TabItem value="npm">
 
 ```bash
-npm install @sfr/models
+npm install @sdr/models
 ```
 
 </TabItem>
@@ -46,4 +46,4 @@ This plugin does not include any directives.
 
 ## Dependencies
 
-[@sfr/controller](./controller.md)
+[@sdr/controller](./controller.md)

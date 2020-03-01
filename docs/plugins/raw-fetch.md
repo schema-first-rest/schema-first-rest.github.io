@@ -21,14 +21,14 @@ values={[
 <TabItem value="yarn">
 
 ```bash
-yarn add @sfr/raw-fetch
+yarn add @sdr/raw-fetch
 ```
 
 </TabItem>
 <TabItem value="npm">
 
 ```bash
-npm install @sfr/raw-fetch
+npm install @sdr/raw-fetch
 ```
 
 </TabItem>
@@ -46,4 +46,4 @@ This plugin does not include any directives.
 
 ## Dependencies
 
-[@sfr/controller](./controller.md)
+[@sdr/controller](./controller.md)

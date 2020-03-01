@@ -7,7 +7,7 @@ import {CodeGenerator} from '../../src/components/codeGenerator';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-The controller plugin is the base for all other included plugins. All plugins mark `@sfr/controller` as an explicit dependency, so it is not neccesary to include it in your configuration file. It defines the following directives.
+The controller plugin is the base for all other included plugins. All plugins mark `@sdr/controller` as an explicit dependency, so it is not neccesary to include it in your configuration file. It defines the following directives.
 
 ## Install
 
@@ -21,14 +21,14 @@ values={[
 <TabItem value="yarn">
 
 ```bash
-yarn add @sfr/controller
+yarn add @sdr/controller
 ```
 
 </TabItem>
 <TabItem value="npm">
 
 ```bash
-npm install @sfr/controller
+npm install @sdr/controller
 ```
 
 </TabItem>
