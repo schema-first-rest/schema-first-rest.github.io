@@ -75,6 +75,7 @@ function Home() {
         </div>
       </header>
       <main>
+{/*
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
@@ -86,6 +87,7 @@ function Home() {
             </div>
           </section>
         )}
+*/}
         <section className={styles.features}>
           <div className="container">
             <CodeGenerator />

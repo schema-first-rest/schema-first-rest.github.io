@@ -22,6 +22,7 @@ module.exports = {
     ],
     'API Reference': [
       'api-reference/cli',
+      'api-reference/create-plugin',
     ],/*
 
     Docusaurus: ['doc1', 'doc2', 'doc3'],

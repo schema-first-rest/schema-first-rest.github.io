@@ -40,6 +40,8 @@ npm install @sfr/controller
 
 This plugin does not emit any code.
 
+---
+
 ## Directives
 
 `controller`
