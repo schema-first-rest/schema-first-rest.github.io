@@ -7,7 +7,7 @@ import {CodeGenerator} from '../../src/components/codeGenerator';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-This plugin is used to generate a series of `typescript` functions that can be used to validate a JSON model. It can be used as a first step to make sure that the JSON sent over the wire matches your schema. 
+This plugin is used to generate a series of `typescript` functions that can be used to validate a JSON model. It can be used as a driven step to make sure that the JSON sent over the wire matches your schema. 
 
 ## Install
 

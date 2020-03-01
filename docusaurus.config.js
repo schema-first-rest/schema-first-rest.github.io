@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Schema Driven: REST', // Title for your website.
   tagline: 'GraphQL Based Schema For Your REST API',
-  url: 'https://schema-first-rest.github.io', // Your website URL
+  url: 'https://schema-driven-rest.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
 
   favicon: 'img/favicon.ico',
-  projectName: 'schema-first-rest.github.io',
-  organizationName: 'schema-first-rest',
+  projectName: 'schema-driven-rest.github.io',
+  organizationName: 'schema-driven-rest',
   themeConfig: {
     navbar: {
       title: 'Schema Driven: REST',
@@ -17,7 +17,7 @@ module.exports = {
       links: [
         {to: 'docs/introduction/theory', label: 'Docs', position: 'left'},
         {
-          href: 'https://github.com/schema-first-rest',
+          href: 'https://github.com/schema-driven-rest',
           label: 'GitHub',
           position: 'right',
         },
@@ -64,7 +64,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/schema-first-rest/schema-first-rest.github.io/edit/master/',
+          editUrl: 'https://github.com/schema-driven-rest/schema-driven-rest.github.io/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

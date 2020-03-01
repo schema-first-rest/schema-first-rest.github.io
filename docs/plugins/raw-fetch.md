@@ -7,7 +7,7 @@ import {CodeGenerator} from '../../src/components/codeGenerator';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-This plugin is used to generate a type safe class that reflects your graphql requests. It can be used on its own, but it is recommend you [fork it](https://github.com/schema-first-rest/plugin-models/fork) and construct the requests as you see fit for your project.
+This plugin is used to generate a type safe class that reflects your graphql requests. It can be used on its own, but it is recommend you [fork it](https://github.com/schema-driven-rest/plugin-models/fork) and construct the requests as you see fit for your project.
 
 ## Install
 
