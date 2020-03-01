@@ -1,6 +1,6 @@
 ---
 id: serverless-api-base
-title: Plugin: Raw Fetch
+title: Plugin Raw Fetch
 ---
 
 # @sfr/raw-fetch

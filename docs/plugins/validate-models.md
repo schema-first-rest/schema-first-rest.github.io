@@ -1,6 +1,6 @@
 ---
 id: validate-models
-title: Plugin: Raw Fetch
+title: Plugin Raw Fetch
 ---
 
 # @sfr/raw-fetch

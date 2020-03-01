@@ -1,6 +1,6 @@
 ---
 id: models
-title: Plugin: Models
+title: Plugin Models
 ---
 
 # @sfr/models

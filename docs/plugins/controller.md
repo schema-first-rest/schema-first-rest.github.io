@@ -1,7 +1,7 @@
 ---
 id: controller
-title: @sfr/controller
-sidebar_label: Plugin: Controller
+title: \@sfr/controller
+sidebar_label: Plugin Controller
 ---
 
 The controller plugin is the base for all other included plugins. It defines the following directives:
