@@ -1314,7 +1314,7 @@
 "@sdr/controller@file:../plugin-controller":
   version "1.0.20"
   dependencies:
-    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-controller-1.0.20-8053004d-92d3-476b-82f5-c6a2b9d32d32-1583081751854/node_modules/@sdr/sdr-core"
+    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-controller-1.0.20-a82db084-b51b-4ed2-8b08-ba81b4a5d9c9-1583095187573/node_modules/@sdr/sdr-core"
 
 "@sdr/core@file:../sdr-core":
   version "1.0.5"
@@ -1328,7 +1328,7 @@
     "@graphql-codegen/plugin-helpers" "1.12.2"
     "@graphql-codegen/typescript" "1.12.2"
     "@graphql-codegen/visitor-plugin-common" "1.12.2"
-    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-models-1.0.21-0b8b2045-0d89-4db5-8a2b-85a7df3503cb-1583081751859/node_modules/@sdr/sdr-core"
+    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-models-1.0.21-c6a2683c-0f24-4d1c-a652-263f0338c801-1583095187577/node_modules/@sdr/sdr-core"
     auto-bind "4.0.0"
     graphql "14.6.0"
     tslib "1.11.0"
@@ -1336,19 +1336,19 @@
 "@sdr/raw-fetch@file:../plugin-raw-fetch":
   version "1.0.24"
   dependencies:
-    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-raw-fetch-1.0.24-9033e605-ecc7-48e5-9505-08945a366de7-1583081751883/node_modules/@sdr/sdr-core"
+    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-raw-fetch-1.0.24-f1a7f77e-c742-4d34-a5e9-51dee412ff01-1583095187603/node_modules/@sdr/sdr-core"
     ejs "^3.0.1"
 
 "@sdr/serverless-api-base@file:../plugin-serverless-api-base":
   version "1.0.24"
   dependencies:
-    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-serverless-api-base-1.0.24-a22657b7-ab83-453b-9791-256beaa1aba0-1583081751885/node_modules/@sdr/sdr-core"
+    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-serverless-api-base-1.0.24-a70fdadf-229d-4f01-a400-ac741c019419-1583095187605/node_modules/@sdr/sdr-core"
     ejs "^3.0.1"
 
 "@sdr/validate-models@file:../plugin-validate-models":
   version "1.0.24"
   dependencies:
-    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-validate-models-1.0.24-c908e095-362e-4cd7-bc9e-e15c62b21db0-1583081751887/node_modules/@sdr/sdr-core"
+    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-validate-models-1.0.24-7682cf08-6a4c-4c58-b122-e36493a287aa-1583095187607/node_modules/@sdr/sdr-core"
     ejs "^3.0.1"
 
 "@types/anymatch@*":
@@ -7835,11 +7835,6 @@ react-side-effect@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.0.tgz#1ce4a8b4445168c487ed24dab886421f74d380d3"
   integrity sha512-IgmcegOSi5SNX+2Snh1vqmF0Vg/CbkycU9XZbOHJlZ6kMzTmi3yc254oB1WCkgA7OQtIAoLmcSFuHTc/tlcqXg==
-
-react-socks@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-socks/-/react-socks-2.1.0.tgz#fafa55066220834a7b2d6e3de6f415d189723761"
-  integrity sha512-6XmihWnTDXD3/w4x1k+TKKRbO9Y8WVVFx4jgpxVIU4k5g4GkC2DJc/oHuHQee7MngM+dHTeYBS5tDoujeBrkMQ==
 
 react-toggle@^4.1.1:
   version "4.1.1"
