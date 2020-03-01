@@ -1,6 +1,9 @@
 ---
 id: validate-models
-title: Plugin Raw Fetch
+title: Plugin Validate Models
 ---
 
-# @sfr/raw-fetch
+# @sfr/validate-models
+import {CodeGenerator} from '../../src/components/codeGenerator';
+
+<CodeGenerator plugin={'validate-models'} />

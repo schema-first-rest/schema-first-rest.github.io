@@ -1,6 +1,9 @@
 ---
 id: serverless-api-base
-title: Plugin Raw Fetch
+title: Plugin Serverless API Base
 ---
 
-# @sfr/raw-fetch
+# @sfr/serverless-api-base
+import {CodeGenerator} from '../../src/components/codeGenerator';
+
+<CodeGenerator plugin={'serverless-api-base'} />

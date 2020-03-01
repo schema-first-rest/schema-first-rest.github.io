@@ -3,8 +3,10 @@ id: controller
 title: \@sfr/controller
 sidebar_label: Plugin Controller
 ---
+import {CodeGenerator} from '../../src/components/codeGenerator';
 
 The controller plugin is the base for all other included plugins. It defines the following directives:
+
 
 | Prop | Type | Default | Description |
 | --- | --- | --- | --- |

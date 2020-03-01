@@ -6,20 +6,24 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "deploy-dested": "cmd /C \"set GIT_USER=dested&& yarn deploy\""
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.43",
     "@docusaurus/preset-classic": "^2.0.0-alpha.43",
+    "@monaco-editor/react": "^3.1.1",
+    "@sfr/controller": "file:../plugin-controller",
+    "@sfr/core": "file:../sfr-core",
+    "@sfr/models": "file:../plugin-models",
+    "@sfr/raw-fetch": "file:../plugin-raw-fetch",
+    "@sfr/serverless-api-base": "file:../plugin-serverless-api-base",
+    "@sfr/validate-models": "file:../plugin-validate-models",
     "classnames": "^2.2.6",
+    "monaco-editor": "^0.20.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "@sfr/controller": "file:../../plugin-controller",
-    "@sfr/models": "file:../../plugin-models",
-    "@sfr/validate-models": "file:../../plugin-validate-models",
-    "@sfr/serverless-api-base": "file:../../plugin-serverless-api-base",
-    "monaco-editor": "^0.20.0",
-    "@monaco-editor/react": "^3.1.1"
+    "react-select": "^3.0.8"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
