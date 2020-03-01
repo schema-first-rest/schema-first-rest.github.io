@@ -14,7 +14,7 @@ const {plugin: validateModelsPlugin, config: validateModelsConfig} = require('@s
 
 const controllerSchema = `directive @request(method: Method, path: String) on FIELD_DEFINITION
 directive @controller(path: String) on OBJECT
-directive @model on OBJECT
+directive @model on OBJECT | UNION | ENUM | INTERFACE | INPUT_OBJECT
 
 directive @auth on FIELD_DEFINITION
 
@@ -104,25 +104,28 @@ type LoginResponse @model {
             />
           </div>
         )}
-        <div style={{display: 'flex', flexDirection: 'row'}}>
-          <ControlledEditor
-            height="50vh"
-            width={'49%'}
-            theme={'dark'}
-            language={'graphql'}
-            value={graphQLCode}
-            onChange={(ev, value) => setGraphQLCode(value)}
-            options={{lineNumbers: 'off', minimap: {enabled: false}}}
-          />
-          <div style={{display: 'flex', flex: 1}}></div>
-          <ControlledEditor
-            height="50vh"
-            width={'49%'}
-            theme={'dark'}
-            language={'typescript'}
-            value={typescriptCode}
-            options={{lineNumbers: 'off', readOnly: true, minimap: {enabled: false}}}
-          />
+        <div className={'rowIfScreen'}>
+          <div style={{flex:1}}>
+            <div className={'code-header'}>GraphQL Schema</div>
+            <ControlledEditor
+              height="50vh"
+              theme={'dark'}
+              language={'graphql'}
+              value={graphQLCode}
+              onChange={(ev, value) => setGraphQLCode(value)}
+              options={{lineNumbers: 'off', minimap: {enabled: false}}}
+            />
+          </div>
+          <div style={{flex:1}}>
+            <div className={'code-header'}>Generated Code</div>
+            <ControlledEditor
+              height="50vh"
+              theme={'dark'}
+              language={'typescript'}
+              value={typescriptCode}
+              options={{lineNumbers: 'off', readOnly: true, minimap: {enabled: false}}}
+            />
+          </div>{' '}
         </div>
       </div>
     </section>

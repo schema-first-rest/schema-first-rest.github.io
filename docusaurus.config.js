@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Schema First: REST', // Title for your website.
-  tagline: 'GraphQL Schema For Your REST API',
+  tagline: 'GraphQL Based Schema For Your REST API',
   url: 'https://schema-first-rest.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
 
@@ -12,7 +12,7 @@ module.exports = {
       title: 'Schema First: REST',
       logo: {
         alt: 'Schema First: REST Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       links: [
         {to: 'docs/introduction/getStarted', label: 'Docs', position: 'left'},
