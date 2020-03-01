@@ -1311,44 +1311,56 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@sdr/controller@file:../plugin-controller":
+"@sdr/controller@latest":
   version "1.0.20"
+  resolved "https://registry.yarnpkg.com/@sdr/controller/-/controller-1.0.20.tgz#8088852f24aa5b44e637f43e825b8000823dd705"
+  integrity sha512-2MLJFKAW0kDGJXMndeirUeGdGKGdwhAoBHOlBs1lqnEhe7+eBtjPh4Wsq+P7Fkbuvh9UswzFwyEJXngsTBeSPQ==
   dependencies:
-    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-controller-1.0.20-a82db084-b51b-4ed2-8b08-ba81b4a5d9c9-1583095187573/node_modules/@sdr/sdr-core"
+    "@sdr/core" latest
 
-"@sdr/core@file:../sdr-core":
+"@sdr/core@latest":
   version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@sdr/core/-/core-1.0.5.tgz#680843e3632c8bea5dae0eac23b444ff263e014c"
+  integrity sha512-OXmhcVkuX5H9vQ/tuzpSRetzlSqHsJmYAgfYrLN2qbzuE4fFIM7cheUl9F5umntHH5qLQ1HVwbSi66kNzfNEwA==
   dependencies:
     graphql "14.6.0"
     prettier "1.19.1"
 
-"@sdr/models@file:../plugin-models":
+"@sdr/models@latest":
   version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@sdr/models/-/models-1.0.21.tgz#72c24795c35aeafe8821cf4125114d867488afae"
+  integrity sha512-m0+A/fDVMgTkzw7qqXvippfIbI/uGhOsu24ASc/gRVGSyLcwuOuZZu32vIDwqC+CNzccTI0hdYVjE2dCaJ9gcw==
   dependencies:
     "@graphql-codegen/plugin-helpers" "1.12.2"
     "@graphql-codegen/typescript" "1.12.2"
     "@graphql-codegen/visitor-plugin-common" "1.12.2"
-    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-models-1.0.21-c6a2683c-0f24-4d1c-a652-263f0338c801-1583095187577/node_modules/@sdr/sdr-core"
+    "@sdr/core" latest
     auto-bind "4.0.0"
     graphql "14.6.0"
     tslib "1.11.0"
 
-"@sdr/raw-fetch@file:../plugin-raw-fetch":
+"@sdr/raw-fetch@latest":
   version "1.0.24"
+  resolved "https://registry.yarnpkg.com/@sdr/raw-fetch/-/raw-fetch-1.0.24.tgz#c83bb8e4b19a602c117f0cd180b9270f175024a2"
+  integrity sha512-JGbKj0Qxf8/4j+VPKpEMheyR2o8lF4iw1Px2T1LAFbXE/A1T3FIQ2ecwXnzsoVPvYT6fEmRAdzQeALOngDNvIw==
   dependencies:
-    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-raw-fetch-1.0.24-f1a7f77e-c742-4d34-a5e9-51dee412ff01-1583095187603/node_modules/@sdr/sdr-core"
+    "@sdr/core" latest
     ejs "^3.0.1"
 
-"@sdr/serverless-api-base@file:../plugin-serverless-api-base":
+"@sdr/serverless-api-base@latest":
   version "1.0.24"
+  resolved "https://registry.yarnpkg.com/@sdr/serverless-api-base/-/serverless-api-base-1.0.24.tgz#452694eaca6505e88ade8b1ef1f8d9a3c0f9f4c9"
+  integrity sha512-XPiDkzIBBdIJ9KO3nySfTWrZEFjHaw67MZUAUxPPiYvkS+1NDJMGlJE3DuFU9WrZZSFlYLSXjAmYYtqBc3iXGg==
   dependencies:
-    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-serverless-api-base-1.0.24-a70fdadf-229d-4f01-a400-ac741c019419-1583095187605/node_modules/@sdr/sdr-core"
+    "@sdr/core" latest
     ejs "^3.0.1"
 
-"@sdr/validate-models@file:../plugin-validate-models":
+"@sdr/validate-models@latest":
   version "1.0.24"
+  resolved "https://registry.yarnpkg.com/@sdr/validate-models/-/validate-models-1.0.24.tgz#c3979ac19ddc83b29955b2103f377a06b3e1b89f"
+  integrity sha512-v7zN+SIFfbWfFE6TzaqVbFjNAjOoY8vEqH80RK8L/VfUuV3oYIOEvORH4XIW19HfCPPU/ovH8O3hA33FrWX1Mw==
   dependencies:
-    "@sdr/core" "file:../../../Users/dested21/AppData/Local/Yarn/Cache/v4/npm-@sdr-validate-models-1.0.24-7682cf08-6a4c-4c58-b122-e36493a287aa-1583095187607/node_modules/@sdr/sdr-core"
+    "@sdr/core" latest
     ejs "^3.0.1"
 
 "@types/anymatch@*":
