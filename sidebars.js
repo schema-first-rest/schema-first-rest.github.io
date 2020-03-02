@@ -22,6 +22,7 @@ module.exports = {
     ],
     'API Reference': [
       'api-reference/cli',
+      'api-reference/configuration',
       'api-reference/create-plugin',
     ],/*
 

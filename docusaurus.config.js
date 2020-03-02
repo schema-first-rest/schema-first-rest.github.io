@@ -64,7 +64,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/schema-driven-rest/schema-driven-rest.github.io/edit/master/',
+          editUrl: 'https://github.com/schema-driven-rest/schema-driven-rest.github.io/edit/development/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

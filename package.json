@@ -1,7 +1,6 @@
 {
   "name": "schema-driven-rest",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "start": "docusaurus start",
@@ -15,7 +14,7 @@
     "@docusaurus/preset-classic": "^2.0.0-alpha.43",
     "@monaco-editor/react": "^3.1.1",
     "@sdr/controller": "latest",
-    "@sdr/core": "latest",
+    "@sdr/core": "file:../sdr-core",
     "@sdr/models": "latest",
     "@sdr/raw-fetch": "latest",
     "@sdr/serverless-api-base": "latest",
