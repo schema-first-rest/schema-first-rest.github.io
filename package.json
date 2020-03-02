@@ -14,7 +14,7 @@
     "@docusaurus/preset-classic": "^2.0.0-alpha.43",
     "@monaco-editor/react": "^3.1.1",
     "@sdr/controller": "latest",
-    "@sdr/core": "file:../sdr-core",
+    "@sdr/core": "latest",
     "@sdr/models": "latest",
     "@sdr/raw-fetch": "latest",
     "@sdr/serverless-api-base": "latest",
