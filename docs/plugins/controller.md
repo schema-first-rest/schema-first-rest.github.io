@@ -1,6 +1,6 @@
 ---
 id: controller
-title: Plugin Controller
+title: Controller
 ---
 
 import {CodeGenerator} from '../../src/components/codeGenerator';

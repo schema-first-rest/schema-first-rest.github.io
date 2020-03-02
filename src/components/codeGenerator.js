@@ -116,7 +116,7 @@ enum UserTypes @model{
             language={'graphql'}
             value={graphQLCode}
             onChange={(ev, value) => setGraphQLCode(value)}
-            options={{lineNumbers: 'off', minimap: {enabled: false}}}
+            options={{minimap: {enabled: false}}}
           />
         </div>
         <div style={{flex: 1}}>
@@ -126,7 +126,7 @@ enum UserTypes @model{
             theme={'dark'}
             language={'typescript'}
             value={typescriptCode}
-            options={{lineNumbers: 'off', readOnly: true, minimap: {enabled: false}}}
+            options={{readOnly: true, minimap: {enabled: false}}}
           />
         </div>
       </div>

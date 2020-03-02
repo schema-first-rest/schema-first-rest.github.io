@@ -14,6 +14,11 @@ Initializes the directory with an [sdr.yaml](../introduction/configuration.md) f
 Runs the generator and outputs the files specified
 
 ---
+`sdr -w`
+
+Watches the schema and runs the generator on change
+
+---
 
 `sdr emit --schema=./base.graphql`
 
