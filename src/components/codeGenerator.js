@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {ControlledEditor} from '@monaco-editor/react';
 import Select from 'react-select';
-import styles from '../pages/styles.module.css';
 
 process.hrtime = () => 1;
 
@@ -41,19 +40,24 @@ export function CodeGenerator({plugin}) {
 }
 
 type LoginRequest @model {
+  userType: UserTypes!
   username: String!
 }
 type LoginResponse @model {
   authorized: Boolean!
   jwt: String!
-}`);
+}
+enum UserTypes @model{
+  admin, 
+  user
+}
+`);
 
   const [typescriptCode, setTypescriptCode] = useState('var x=12;');
 
   useEffect(() => {
     try {
       const plugins = [];
-
       switch (selectedPlugin) {
         case 'raw-fetch':
           plugins.push({name: '@sdr/raw-fetch', method: 'index', body: {plugin: rawFetchPlugin}});
